@@ -2,6 +2,10 @@
   --verde-primario: #006633;
   --branco: #fff;
 }
+html, body{
+  width: 100%;
+  height: 100%;
+}
 .navbar-nav .nav-item .nav-link:hover {
   background-color: var(--verde-primario);
   color: var(--branco);
@@ -24,4 +28,23 @@
 /*Aplica este codigo quando a tela vai DEPOIS 990px*/
 @media (min-width: 990px) {
 
+}
+/* SECTION HOME*/
+section#home{
+  height: 80%;
+  color: var(--branco);
+}
+.parallax{
+  background-image: url("../imagens/bg-inicio.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  min-height: 100%;
+}
+
+/*SESSAO SOBRE*/
+section#sobre{
+  background-color: var(--verde-primario);
+  color: var(--branco);
 }
