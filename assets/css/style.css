@@ -1,0 +1,28 @@
+:root {
+  --verde-primario: #006633;
+  --branco: #fff;
+
+}
+.navbar-nav .nav-item .nav-link:hover {
+  background-color: var(--verde-primario);
+  color: var(--branco);
+}
+.navbar-nav .nav-item .nav-link {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+  color: var(--verde-primario);
+}
+.navbar {
+  border-bottom: 7px solid var(--verde-primario);
+}
+/*Aplica este codigo quando a tela vai até 990px*/
+@media (max-width: 990px) {
+  .navbar-nav .nav-item .nav-link {
+    padding: 5px;
+  }
+}
+/*Aplica este codigo quando a tela vai DEPOIS 990px*/
+@media (min-width: 990px) {
+
+}
