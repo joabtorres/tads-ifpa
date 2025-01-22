@@ -1,7 +1,6 @@
 :root {
   --verde-primario: #006633;
   --branco: #fff;
-
 }
 .navbar-nav .nav-item .nav-link:hover {
   background-color: var(--verde-primario);
